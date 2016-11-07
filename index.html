@@ -2,6 +2,7 @@
 <html>
 <head>
   <link rel="stylesheet" type="text/css" href="style.css">
+
   <a href="login.html">Login</a>
   <a href="sign-up.html">Sign-Up</a>
 
@@ -10,20 +11,13 @@
 <body>
 <div id='outerdiv' name='div1' data-info='foo' class='box1'>
         <div id='innerdiv' name='div2' data-info='bar' class='box2'>
-            <p id='t1'>Welcome to our Book Store</p> <script type="text/javascript">
-              
-              var changeText = function (){
-                if (document.getElementById('t1').innerHTML === "Welcome to our Book Store") {
-                document.getElementById('t1').innerHTML = "Read more books";
-                } else {
-                  document.getElementById('t1').innerHTML = "Welcome to our Book Store";
-                }
-              }
-              document.getElementById('t1').onclick = changeText;
-            
-            </script>
+            <p id='t1'>Welcome to our Book Store</p> 
             <p id='t2'>Buy more books - now!</p>
+            <label>UserName</label><input type="text"><button>Submit</button>
         </div>
     </div>
+
+    <!-- <script type="text/javascript" src="script.js"></script> -->
+    <script type="text/javascript" src="form.js"></script>
 </body>
 </html>
